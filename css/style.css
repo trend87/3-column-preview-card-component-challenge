@@ -106,7 +106,7 @@ p{
         padding: 0;
     }
     .container{
-      
+        margin: 0 15%; 
         display: flex;
         flex-flow: column;
         background-color: white;
@@ -114,21 +114,22 @@ p{
         margin-left: 0;
         padding: 0;
         margin-top: 80%;
+        margin-bottom: 50%;
    
     }
   .sedans{
-      height: 550px;
+    height:600px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 0;
     width: 300px;
   }
   .suv{
-      height: 550px;
+      height: 600px;
       width: 300px;
   }
   .luxury{
-      height: 550px;
+    height: 600px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
