@@ -4,56 +4,61 @@
    
 }
 .container{
-    margin: 0 15%; 
+    margin: 3% 25%; 
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    margin-top: 50px;
     height: 600px;
-    width: 1000px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+    
 }
 .sedans{
     box-sizing: border-box;
-    background-color: orange;
+    background-color: hsl(31, 77%, 52%);
     color: white;
     height: 450px;
     width: 300px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    display: block;
-    padding:3% ;
+    padding:30px ;
     
 }
 .suv{
     box-sizing: border-box;
-    background-color: lightseagreen;
+    background-color: hsl(184, 100%, 22%);
     color: white;
     height: 450px;
     width: 300px;
-    padding:3% ;
+    padding:30px ;
 }
 .luxury{
     box-sizing: border-box;
-    background-color: darkgreen;
+    background-color: hsl(179, 100%, 13%);
     color: white;
     height: 450px;
     width: 300px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding:3% ;
+    padding:30px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
 }
 p{
+    font-family: 'Lexend Deca', sans-serif;
     text-align: justify;
     height: 100px;
+    font-size: 15px;
+  
+    
 }
 
 .btn-1{
     border-radius: 30px;
     padding: 10px 25px;
-    border: 1px solid orange;
-    color: orange;
+    border: 1px solid hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);
     background-color: white;
     font-weight: bold;
     margin-top:50px ;
@@ -61,7 +66,7 @@ p{
 }
 .btn-1:hover{
     color: white;
-    background-color: orange;
+    background-color: hsl(31, 77%, 52%);
     border: 1px solid white;
     
 }
@@ -70,8 +75,8 @@ p{
 .btn-2{
     border-radius: 30px;
     padding: 10px 25px;
-    border: 1px solid lightseagreen;
-    color: lightseagreen;
+    border: 1px solid hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
     background-color: white;
     font-weight: bold;
     margin-top:50px ;
@@ -79,15 +84,15 @@ p{
 }
 .btn-2:hover{
     color: white;
-    background-color: lightseagreen;
+    background-color: hsl(184, 100%, 22%);
     border: 1px solid white;
     
 }
 .btn-3{
     border-radius: 30px;
     padding: 10px 25px;
-    border: 1px solid darkgreen;
-    color: darkgreen;
+    border: 1px solid hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
     background-color: white;
     font-weight: bold;
     margin-top:50px ;
@@ -95,7 +100,7 @@ p{
 }
 .btn-3:hover{
     color: white;
-    background-color: darkgreen;
+    background-color: hsl(179, 100%, 13%);
     border: 1px solid white;
     
 }
