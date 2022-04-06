@@ -1,0 +1,101 @@
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+.container{
+    margin: 0 16%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+    height: 600px;
+    width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sedans{
+    box-sizing: border-box;
+    background-color: orange;
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+    padding:3% ;
+    
+}
+.suv{
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    color: white;
+    height: 450px;
+    width: 300px;
+    padding:3% ;
+}
+.luxury{
+    box-sizing: border-box;
+    background-color: darkgreen;
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:3% ;
+}
+p{
+    text-align: justify;
+    height: 100px;
+}
+
+.btn-1{
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 1px solid orange;
+    color: orange;
+    background-color: white;
+    font-weight: bold;
+    margin-top:50px ;
+    
+}
+.btn-1:hover{
+    color: white;
+    background-color: orange;
+    border: 1px solid white;
+    
+}
+
+
+.btn-2{
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+    background-color: white;
+    font-weight: bold;
+    margin-top:50px ;
+    
+}
+.btn-2:hover{
+    color: white;
+    background-color: lightseagreen;
+    border: 1px solid white;
+    
+}
+.btn-3{
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+    background-color: white;
+    font-weight: bold;
+    margin-top:50px ;
+    
+}
+.btn-3:hover{
+    color: white;
+    background-color: darkgreen;
+    border: 1px solid white;
+    
+}
